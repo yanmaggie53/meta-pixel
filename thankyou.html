@@ -1,27 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<!-- Meta Pixel Code -->
-<script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '1784976975876235');
-fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=1784976975876235&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Meta Pixel Code -->
-  <title>Thank You</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    html, body { margin: 0; padding: 0; background: transparent; }
+  </style>
+  <!-- Fire Meta Pixel Lead event -->
+  <script>
+    var img = new Image();
+    img.src = "https://www.facebook.com/tr?id=YOUR_PIXEL_ID&ev=Lead&noscript=1";
+  </script>
+  <!-- Redirect to eligibility form -->
+  <script>
+    window.location.replace("https://docs.google.com/forms/d/e/1FAIpQLScSWRY4FwoGxilw7blQrFDv3H1KcoXcIxY2Xx_oTMCHbL1_Gw/viewform");
+  </script>
 </head>
 <body>
-<h1>Thank you for your interest!</h1>
-<p>If you are eligible, you will receive an email within 24 hours with your next steps.</p>
 </body>
 </html>
